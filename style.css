@@ -89,7 +89,9 @@
 @keyframes main-img {
     0% {
         left: -100%; /* Start from left off-screen */
+        opacity: 0;
     }
+    
     100% {
         left: 0%; /* End at right off-screen */
     }
