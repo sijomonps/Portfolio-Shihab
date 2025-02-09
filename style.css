@@ -1,0 +1,78 @@
+@font-face {
+    font-family: main-regular;
+    src: url(./Fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+    font-family: main-bold;
+    src: url(./Fonts/MonumentExtended-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: main;
+    src: url(./Fonts/moonet-demo.regular.otf);
+    
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(./Fonts/poppins.medium.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: poppins-black;
+    src: url(./Fonts/poppins.black.ttf);
+    font-weight: bold;
+}
+
+/*Navbar*/
+
+.nav{
+    display: flex;
+    position: fixed;
+    background-color: rgb(250, 249, 249);
+    width: 100%;
+}
+.logo{
+    font-weight: 200;
+    font-family: main;
+    font-size: 35px;
+    margin-left: 3vw;
+    margin-right: 30vw;
+}
+
+.nav-li{
+    font-family: poppins;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 50px;
+    
+}
+
+/*Main _section*/
+
+.home-first-h{
+    font-family: main-bold;
+    font-size: 50px;
+    margin-top: -100px;
+    margin-left: -100px;
+    margin-right: 100px;
+    
+}
+
+#home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-first{
+    
+}
+
+.main-image{
+    height: 100vh;
+    filter: grayscale(100%);
+    margin-top: 50px;
+}
